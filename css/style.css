@@ -1,0 +1,105 @@
+/* MAIN SETTINGS */
+* {font-family: 'PT Serif', serif; }
+
+h1, h2, h5, p {color: rgb(68, 68, 68);}
+
+h2, h5 {
+    text-transform: uppercase;
+    color: rgb(68, 68, 68);
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+
+/* Heading */
+header {
+    background: url(../img/bg_head.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    letter-spacing: 3px;
+}
+
+header img {
+    width: 100px;
+    height: 100px !important;
+    object-fit: cover;
+}
+
+header p {margin-top: -10px;}
+
+
+/* Navigation */
+nav li {padding: 10px 0;}
+
+nav li a {
+    color: rgb(145, 145, 145);
+    transition: color .3s;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+nav li a:hover {color: darkkhaki;}
+nav hr { margin: 0;}
+
+
+/* About secction */
+.about p {
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+
+/* Services section */
+.services p {text-indent: 1.2em;}
+
+.services-button {
+    text-transform: uppercase;
+    padding: 5px 25px;
+    border-radius: 1px;
+}
+
+
+/* Recent works section */
+.recent-works img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.recent-works a {
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.recent-works a:hover {color: darkkhaki !important;}
+
+
+/* Main information section */
+.main-information,
+.main-information h5,
+.main-information p {
+    background-color: rgb(37, 37, 37);
+    color: rgb(202, 202, 202);
+}
+
+.main-information li {display: inline-block;}
+
+.main-information i {
+    font-size: 28px;
+    margin-right: 12px;
+    color: #eee;
+    transition: color .3s;
+}
+
+.main-information i:hover {color: rgb(202, 202, 202);}
+
+/* Footer */
+.footer-information {
+        background-color: rgb(22, 22, 22);
+        color: rgb(116, 116, 116);
+        padding: 10px 60px;
+}
